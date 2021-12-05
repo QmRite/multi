@@ -15,8 +15,7 @@
 
 
 
-### ThreadPoolExecutor
-#### • 5 воркеров
+### • 5 воркеров
 ![alt_tag](https://sun9-84.userapi.com/impg/8W05A_uWYiHo7mchUqT_etPWQn7OnVlbZWfJpw/cY94JIOhfz4.jpg?size=834x584&quality=96&sign=d89b88eceecf1b66a505684e065c484d&type=album)
 
 **Нагрузка** на ЦП возросла. Максимально доходила до 15%
@@ -24,7 +23,7 @@
 **Время** уменьшилось до 197с
 
 
-#### • 10 воркеров
+### • 10 воркеров
 ![alt_tag](https://sun9-20.userapi.com/impg/FJjDgKgrgSv19ZqGEIgQ99SunNxh8BXVy43YLg/jtoHVqwD6Po.jpg?size=835x589&quality=96&sign=e3c11e8fa9e95b2b8fde7df66dabf754&type=album)
 
 **Нагрузка** на ЦП в начале доходила до 20, далее держалась в районе 10
@@ -32,7 +31,7 @@
 **Время** уменьшилось до 85с
 
 
-#### • 100 воркеров
+### • 100 воркеров
 ![alt_tag](https://sun9-38.userapi.com/impg/p7txLrHKBBiRu9PsOh_SjF0WIpaqNeLNTUou-g/BvFUDxNnOcM.jpg?size=837x588&quality=96&sign=54daae55f4705b36e1e6f7e7b9cb8fe2&type=album)
 
 **Нагрузка** на ЦП держалась в районе 40
@@ -40,3 +39,12 @@
 **Время** уменьшилось до 24с
 
 ### Вывод
+C повышением количества воркеров ускоряется работа программы, но увеличивается нагрузка на ЦП
+
+## CPU-bound
+### • 1 ядро
+### • 2 ядро
+### • 4 ядро
+### • 5 ядро
+### • 10 ядро
+### • 100 ядро
